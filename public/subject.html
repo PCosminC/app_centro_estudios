@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignatura</title>
+</head>
+<body>
+    <form action="/subject" method="post">
+        <p>
+            <label for="name_subject">Asignatura:</label>
+            <input type="text" name="name" id="name_subject">   
+        </p>
+        <p>
+            <label for="course">Curso:</label>
+            <select name="course" id="course">
+                <option value="primer_eso">1º ESO</option>
+                <option value="seg_eso">2º ESO</option>
+                <option value="ter_eso">3º ESO</option>
+                <option value="cuarto_eso">4º ESO</option>
+                </select>  
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
